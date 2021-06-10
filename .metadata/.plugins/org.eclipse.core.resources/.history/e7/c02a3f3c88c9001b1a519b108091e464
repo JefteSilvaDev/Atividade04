@@ -1,0 +1,35 @@
+import javax.swing.JOptionPane;
+
+public class StatusAluno extends JOptionPane {
+
+	public static void main(String[] args) {
+
+	  // condições
+	  // nota maior ou igual 7 'Aprovado'
+	  // nota entre 4 e 7 'Recuperação'
+	  // nota menor que 4 'Reprovado'
+		 
+		double nota;
+		 
+		JOptionPane.showInputDialog("Digite o nome do aluno");
+		JOptionPane.showInputDialog("Digite a nota final");
+		 
+		 
+		if(nota > 7){
+		System.out.println("aprovado!");
+		}
+		 
+		 
+		else if
+		(nota >= 4 && nota < 7){
+		JOptionPane.showMessageDialog(null, "Recuperação!");
+		}
+		 
+		if 
+		(nota < 4);
+		
+		else{
+		JOptionPane.showMessageDialog(null,"Reprovado!");
+		  }
+		 }
+		}

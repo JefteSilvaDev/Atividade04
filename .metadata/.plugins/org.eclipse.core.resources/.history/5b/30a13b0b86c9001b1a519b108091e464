@@ -1,0 +1,66 @@
+/*import javax.swing.JOptionPane;
+
+public class StatusAluno extends JOptionPane {
+
+	public static void main(String[] args) {
+
+		String aluno;
+		float notaFinal;
+		
+		
+		JOptionPane.showInputDialog("Digite o nome do aluno");
+		notaFinal = Float.parseFloat(JOptionPane.showInputDialog("Digite a nota final"));
+		
+		JOptionPane.showInternalMessageDialog(null, "O aluno" ?? esta ?? com a nota ??");
+		
+		
+	  // condições
+	  // nota maior ou igual 7 'Aprovado'
+	  // nota entre 4 e 7 'Recuperação'
+	  // nota menor que 4 'Reprovado'
+	}
+
+}
+*/
+
+import java.util.Scanner;
+ 
+public class exemplo {
+ 
+ 
+public static void main(String []args){
+ 
+Scanner input = new Scanner(System.in);
+ 
+double nota1,nota2,nota3,media;
+ 
+System.out.println("Digite a primeira nota");
+nota1 = input.nextDouble();
+ 
+System.out.println("Digite a segunda nota");
+nota2 = input.nextDouble();
+ 
+System.out.println("Digite a terceira nota");
+nota3 = input.nextDouble();
+ 
+ 
+media =(nota1+nota2+nota3)/3;
+ 
+if(media > 6){
+System.out.println("Voce esta aprovado !");
+}
+ 
+ 
+else if
+(media >= 4 && media < 6){
+System.out.println("Voce deverá fazer a prova novamente !");
+}
+ 
+ 
+else{
+System.out.println("Voce esta reprovado !");
+ 
+ 
+  }
+ }
+}

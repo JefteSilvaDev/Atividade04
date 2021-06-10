@@ -1,0 +1,20 @@
+import javax.swing.JOptionPane;
+
+public class EntreXeY extends JOptionPane {
+
+	public static void main(String[] args) {
+
+		int num1;
+		int num2;
+		
+		num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 numero."));
+		num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 numero."));
+		
+		for (int i = 1; i < num1; i++);
+		for (int i = 1; i > num2; i++);
+		
+		JOptionPane.showMessageDialog(null, "Os números entre"+num1+ "e" +num2 "são:");
+		
+	}
+
+}

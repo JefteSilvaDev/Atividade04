@@ -1,0 +1,30 @@
+import javax.swing.JOptionPane;
+
+public class EntreXeY extends JOptionPane {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public static void main(String[] args) {
+		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 numero."));
+		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Digite 1 numero."));
+		int valor11 = 0, valor2 = 0;
+		int soma1, soma2;
+		
+		
+		if (num1 > num2) {
+			for (int valor11 = num2; num2 < num1; num2++);
+	 			JOptionPane.showMessageDialog(null,"Os valores entre" +num2+ "e" +num1+ "são"+valor11);	
+		}
+		
+	/*	else if (num1 < num2) {
+			for = num1; num1 < num2; num1++); {
+				JOptionPane.showMessageDialog(null,"Os valores entre" +num2+ "e" +num1+ "são"+valor2);
+			}
+		}*/
+		
+	}
+
+}
